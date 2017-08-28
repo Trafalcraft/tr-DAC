@@ -1,0 +1,29 @@
+name: DAC
+version: 1.0
+description: Mini-jeux DAC
+author: ludo
+ 
+main: com.trafalcraft.ludo.mainClasse
+ 
+commands:
+   fstart:
+     description: force le demarage
+     aliases: []
+   join:
+     description: rejoindre la partie
+     aliases: []
+   leave:
+     description: quiter la partie
+     aliases: []
+   setplongeoir:
+     description: set le point ou sera tp le joueur sur le plongeoir
+     aliases: []
+   setmapspawn:
+     description: set le point ou sera retp le joueur apres son saut
+     aliases: []
+   setpos1:
+     description: set le premier coin de la piscine
+     aliases: []
+   setpos2:
+     description: set le second coin de la piscine
+     aliases: []

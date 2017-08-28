@@ -1,0 +1,15 @@
+name: tr-dac
+version: 2.0
+description: sauter dans une piscine
+author: ludo
+softdepend: ["BossBarAPI", "tr-client"]
+ 
+main: com.trafalcraft.dac.Main
+ 
+commands:
+  dac:
+    description: commande du plugin dé a coudre
+    aliases: []
+  fstart:
+    description: force le depart d'une aréne
+    aliases: []
